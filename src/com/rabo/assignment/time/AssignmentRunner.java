@@ -6,7 +6,7 @@ public class AssignmentRunner {
 
 		TimePatternCounter timePatternCounter = new TimePatternCounter();
 		int expectedCount = timePatternCounter.count(args[0], args[1]);
-		System.out.println("Appearance of combination of 2 digits in given range : " + expectedCount);
+		System.out.println("Appearance of combination of 2 digits consecutively in the given range : " + expectedCount);
 
 	}
 }
